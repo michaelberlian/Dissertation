@@ -42,5 +42,5 @@ before running python files download and UNZIP Data.zip and Model.zip to get Dat
 
 Repository to the source code and data can be found and downloaded here : 
 - https://drive.google.com/drive/folders/1H7BtlzoJOagq4y-AAXN0UNkH9yOYYWF8?usp=sharing (source code and dataset(Data.zip and Model.zip))or
-- https://github.com/michaelberlian/Dissertation (source code only)
+- https://github.com/michaelberlian/Dissertation-Article-Category-Prediction (source code only)
 
