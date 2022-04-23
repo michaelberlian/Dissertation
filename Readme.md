@@ -44,7 +44,7 @@ data can be found and downloaded here :
 - https://drive.google.com/drive/folders/1pGaORhuollYKH3rDDAXxBOjhbxMzuLG4?usp=sharing (Data.zip and Model.zip)
 
 Repository to the source code can be found here : 
-- https://drive.google.com/drive/folders/1H7BtlzoJOagq4y-AAXN0UNkH9yOYYWF8?usp=sharing (source code )or
+- https://drive.google.com/drive/folders/1H7BtlzoJOagq4y-AAXN0UNkH9yOYYWF8?usp=sharing (source code) or
 - https://github.com/michaelberlian/Dissertation-Article-Category-Prediction (source code only) or
 - https://projects.cs.nott.ac.uk/psymb17/Dissertation-Article-Category-Prediction (source code only)
 
