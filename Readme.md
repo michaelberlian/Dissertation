@@ -8,7 +8,7 @@ the libraries that were used are : <br>
 - Scikit Learn version 1.0 (https://scikit-learn.org)
 - Joblib version 1.1.0 (https://joblib.readthedocs.io/en/latest/)
 
-chromedriver is needed to run selenium scraping (https://sites.google.com/chromium.org/driver/)
+chromedriver is needed to run selenium scraping (https://sites.google.com/chromium.org/driver/ or https://drive.google.com/drive/folders/1pGaORhuollYKH3rDDAXxBOjhbxMzuLG4?usp=sharing)
 
 Folder :<br>
 - Data : contains xlsx, csv, and pickles.
@@ -41,7 +41,7 @@ Folder :<br>
 before running python files download and UNZIP Data.zip and Model.zip to get Data and Model Folders. <br>
 
 data can be found and downloaded here : 
-- https://drive.google.com/drive/folders/1pGaORhuollYKH3rDDAXxBOjhbxMzuLG4?usp=sharing (Data.zip and Model.zip)
+- https://drive.google.com/drive/folders/1pGaORhuollYKH3rDDAXxBOjhbxMzuLG4?usp=sharing (chromedriver.exe, Data.zip, Model.zip)
 
 Repository to the source code can be found here : 
 - https://drive.google.com/drive/folders/1H7BtlzoJOagq4y-AAXN0UNkH9yOYYWF8?usp=sharing (source code) or
