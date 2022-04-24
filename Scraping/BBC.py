@@ -5,7 +5,7 @@ import numpy as np
 import time 
 from functions import remove_word, remove_punctuation
 
-#preparing browser, CHANGE PATH TOU CHROMEDRIVER .exe
+#preparing browser, CHANGE PATH TO the CHROMEDRIVER.exe
 PATH = "/Users/michaelberlian/Desktop/UoN/Dissertation/code/chromedriver"
 driver = webdriver.Chrome(PATH)
 
@@ -46,7 +46,7 @@ for topic in topics:
 
         button = driver.find_element(By.CLASS_NAME,"qa-pagination-next-page")
         button.click()
-        time.sleep(1)
+        time.sleep(2)
 
     # print(topic,len(links))
     # print(links[:5])
@@ -138,7 +138,7 @@ driver.quit()
 
 #create dataframe from the scrapped data
 column = np.arange(len(headlines))
-df = pd.DataFrame([headlines,contents,categories],index=['headline','content','category'],columns=column)
+df = pd.DataFrame([headlines,contents,categories],index=['headline/link','content','category'],columns=column)
 df = df.transpose()
 
 #combine the new data with previously collected data

@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 from functions import remove_word, remove_punctuation
 
-#preparing browser, CHANGE PATH TOU CHROMEDRIVER .exe
+#preparing browser, CHANGE PATH TO the CHROMEDRIVER.exe
 PATH = "/Users/michaelberlian/Desktop/UoN/Dissertation/code/chromedriver"
 driver = webdriver.Chrome(PATH)
 
@@ -119,7 +119,7 @@ driver.quit()
 
 #create dataframe based on scraped data
 column = np.arange(len(headlines))
-df = pd.DataFrame([headlines,contents,categories],index=['headline','content','category'],columns=column)
+df = pd.DataFrame([headlines,contents,categories],index=['headline/link','content','category'],columns=column)
 df = df.transpose()
 
 #combine the new data with previously collected data
